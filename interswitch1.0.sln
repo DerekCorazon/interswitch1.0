@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interswitch1.0", "interswitch1.0.csproj", "{B14C0018-ED80-4DBD-BFF4-DE158190F6B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interswitch1.0.Tests", "..\interswitch1.0.Tests\interswitch1.0.Tests.csproj", "{4B069684-2FF0-4A12-AD1F-33DA94AB79FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B14C0018-ED80-4DBD-BFF4-DE158190F6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14C0018-ED80-4DBD-BFF4-DE158190F6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14C0018-ED80-4DBD-BFF4-DE158190F6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14C0018-ED80-4DBD-BFF4-DE158190F6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B069684-2FF0-4A12-AD1F-33DA94AB79FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B069684-2FF0-4A12-AD1F-33DA94AB79FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B069684-2FF0-4A12-AD1F-33DA94AB79FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B069684-2FF0-4A12-AD1F-33DA94AB79FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4550A471-D550-40E2-874A-1029F55ED627}
+	EndGlobalSection
+EndGlobal
