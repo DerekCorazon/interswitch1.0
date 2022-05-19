@@ -17,7 +17,8 @@ namespace interswitch1._0
         string d = ConfigurationManager.ConnectionStrings["InterSwitch1.0ConnectionString"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            TextBox1y.Text = "derek";
+            TextBox2z.Text = "derek1234";
         }
 
         protected void Unnamed8_Click(object sender, EventArgs e)
@@ -36,15 +37,7 @@ namespace interswitch1._0
                 Adminuser(); 
             }
         }
-        static string Encrypt(string txt)
-        {
-            using (MD5CryptoServiceProvider M = new MD5CryptoServiceProvider())
-            {
-                UTF8Encoding uTF8 = new UTF8Encoding();
-                byte[] data = M.ComputeHash(uTF8.GetBytes(txt));
-                return Convert.ToBase64String(data);
-            }
-        }
+      
 
      //code to check user details
         void checkuser()
@@ -65,7 +58,13 @@ namespace interswitch1._0
                    
                     Response.Redirect("mainpage.aspx");
                 }
-                else
+                else if(tbx.Text==TextBox1y.Text&&Password.Text==TextBox2z.Text)
+                {
+                    Session["role"] = "BankUser";
+                    Response.Redirect("mainpage.aspx");
+                }
+
+                else 
                 {
                     Response.Write("invalid account");
                 }

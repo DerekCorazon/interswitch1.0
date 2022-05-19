@@ -60,7 +60,11 @@
     </div>
 
     <div class="row">
-      
+        <asp:PlaceHolder ID="PlaceHolder1uijh" Visible="false" runat="server">
+            <asp:TextBox ID="TextBox1y" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox2z" runat="server"></asp:TextBox>
+        </asp:PlaceHolder>
+       
     </div>
 
 </asp:Content>

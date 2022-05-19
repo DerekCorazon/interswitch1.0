@@ -12,7 +12,13 @@
                 <h4>InterSwitch UG</h4>
             </div>
             <asp:PlaceHolder ID="PlaceHolder1" runat="server" Visible="false">
-                <asp:Button ID="Button3" runat="server" Text="log out " CssClass="btn btn-danger btn-lg" />&nbsp;&nbsp;|<asp:Button ID="Button1" runat="server" Text="Add a Bank" CssClass="btn btn-success btn-lg" PostBackUrl="~/Account/NewBank.aspx" />&nbsp;|&nbsp;<asp:Button ID="Button2" runat="server" Text="New Employee" CssClass="btn btn-primary btn-lg" PostBackUrl="~/Employee/addemployee.aspx" />&nbsp;|&nbsp;<asp:Button ID="Button8" runat="server" Text="LeaveRequests" CssClass="btn btn-default btn-lg" PostBackUrl="~/Employee/listofleaves.aspx" />&nbsp;|&nbsp;<asp:Button ID="Button9" runat="server" Text="Employees"  CssClass="btn btn-warning btn-lg" PostBackUrl="~/Employee/viewroles.aspx" />
+                <asp:Button ID="Button3" runat="server" Text="log out " CssClass="btn btn-danger btn-lg" />&nbsp;|&nbsp;
+                <asp:Button ID="Button1" runat="server" Text="Add a Bank" CssClass="btn btn-success btn-lg" PostBackUrl="~/Account/NewBank.aspx" />&nbsp;|&nbsp;   <asp:Button ID="Button11" runat="server" Text="Roles" CssClass="btn btn-warning btn-lg"  />
+                <br />
+                <asp:Button ID="Button2" runat="server" Text="New Employee" CssClass="btn btn-primary btn-lg" PostBackUrl="~/Employee/addemployee.aspx" />&nbsp;|&nbsp;
+                <asp:Button ID="Button8" runat="server" Text="LeaveRequests" CssClass="btn btn-default btn-lg" PostBackUrl="~/Employee/listofleaves.aspx" />&nbsp;|&nbsp;<br />
+                <asp:Button ID="Button9" runat="server" Text="Employees"  CssClass="btn btn-warning btn-lg" PostBackUrl="~/Employee/viewroles.aspx" />&nbsp;|&nbsp;
+                <asp:Button ID="Button10" runat="server" Text="CorporateUsers" CssClass="btn btn-success btn-lg" PostBackUrl="~/coporate users.aspx" />
             </asp:PlaceHolder>
             <asp:PlaceHolder ID="PlaceHolder2" runat="server" Visible="false">
                  <asp:Button ID="Button6" runat="server" Text="log out"  CssClass="btn btn-danger btn-lg" />|<asp:Button ID="Button4" runat="server" Text="performTransaction" CssClass="btn btn-primary btn-lg" />

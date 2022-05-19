@@ -21,15 +21,7 @@ namespace interswitch1._0.Account
         {
             newCustomer();
         }
-        static string Encrypt(string txt)
-        {
-            using (MD5CryptoServiceProvider M = new MD5CryptoServiceProvider())
-            {
-                UTF8Encoding uTF8 = new UTF8Encoding();
-                byte[] data = M.ComputeHash(uTF8.GetBytes(txt));
-                return Convert.ToBase64String(data);
-            }
-        }
+      
 
         protected void Button1_Click(object sender, EventArgs e)
         {
@@ -43,30 +35,7 @@ namespace interswitch1._0.Account
             PlaceHolder3.Visible = false;
             PlaceHolder4.Visible = true;
         }
-        //void newCorporateUser()
-        //{
-        //    using (SqlConnection con = new SqlConnection(a))
-        //    {
-        //        SqlCommand cmd = new SqlCommand();
-        //        cmd.Connection = con;
-        //        cmd.CommandType = CommandType.Text;
-                
-        //        cmd.CommandText = "insert into CorporateUsers values(@InstitutionCode,@CorporateType,@Username,@LastName,@FirstName,@EmailAddress,@Password,@RoleCode)";
-        //        cmd.Parameters.AddWithValue("@InstitutionCode", DropDownList1.SelectedValue);
-        //        cmd.Parameters.AddWithValue("@CorporateType", Tbl.SelectedValue);
-        //        cmd.Parameters.AddWithValue("@Username",x3.Text);
-        //        cmd.Parameters.AddWithValue("@LastName", TextBox4.Text);
-        //        cmd.Parameters.AddWithValue("@FirstName", TextBox5.Text);
-        //        cmd.Parameters.AddWithValue("@EmailAddress", Email.Text);
-        //        cmd.Parameters.AddWithValue("@Password", Encrypt(ConfirmPassword.Text));
-                
-              
-        //        cmd.Parameters.AddWithValue("@RoleCode", Email.Text);
-        //        con.Open();
-        //        cmd.ExecuteNonQuery();
-        //        GridView1.DataBind();
-        //    }
-        //}
+     
         void newCustomer()
         {
             int g = 1;
@@ -82,7 +51,7 @@ namespace interswitch1._0.Account
                 cmd.Parameters.AddWithValue("@LastName", TextBox4.Text);
                 cmd.Parameters.AddWithValue("@FirstName", TextBox5.Text);
                 cmd.Parameters.AddWithValue("@EmailAddress", Email.Text);
-                cmd.Parameters.AddWithValue("@Password", Encrypt(ConfirmPassword.Text));
+                cmd.Parameters.AddWithValue("@Password", ConfirmPassword.Text);
                 cmd.Parameters.AddWithValue("@RoleCode", DropDownList2.SelectedValue);
                 con.Open();
                 cmd.ExecuteNonQuery();

@@ -178,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\NewBank.aspx" />
+    <Content Include="coporate users.aspx" />
     <Content Include="Employee\addemployee.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -203,6 +204,7 @@
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="mainpage.aspx" />
+    <Content Include="roles.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -244,6 +246,13 @@
     </Compile>
     <Compile Include="Account\NewBank.aspx.designer.cs">
       <DependentUpon>NewBank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="coporate users.aspx.cs">
+      <DependentUpon>coporate users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="coporate users.aspx.designer.cs">
+      <DependentUpon>coporate users.aspx</DependentUpon>
     </Compile>
     <Compile Include="Employee\addemployee.aspx.cs">
       <DependentUpon>addemployee.aspx</DependentUpon>
@@ -302,6 +311,13 @@
       <DependentUpon>mainpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="roles.aspx.cs">
+      <DependentUpon>roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="roles.aspx.designer.cs">
+      <DependentUpon>roles.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

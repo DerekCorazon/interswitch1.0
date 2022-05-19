@@ -11,88 +11,88 @@ namespace interswitch1._0
 {
 
 
-    public partial class _Default
+    public partial class roles
     {
 
         /// <summary>
-        /// ErrorMessage control.
+        /// TxtBox2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder ErrorMessage;
+        protected global::System.Web.UI.WebControls.TextBox TxtBox2;
 
         /// <summary>
-        /// FailureText control.
+        /// TxtBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal FailureText;
+        protected global::System.Web.UI.WebControls.TextBox TxtBox1;
 
         /// <summary>
-        /// tbx control.
+        /// Button1x control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbx;
+        protected global::System.Web.UI.WebControls.Button Button1x;
 
         /// <summary>
-        /// Password control.
+        /// TextBx1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Password;
+        protected global::System.Web.UI.WebControls.TextBox TextBx1;
 
         /// <summary>
-        /// x4 control.
+        /// TxtBx1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList x4;
+        protected global::System.Web.UI.WebControls.TextBox TxtBx1;
 
         /// <summary>
-        /// RememberMe control.
+        /// Button2x control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox RememberMe;
+        protected global::System.Web.UI.WebControls.Button Button2x;
 
         /// <summary>
-        /// PlaceHolder1uijh control.
+        /// Box1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder1uijh;
+        protected global::System.Web.UI.WebControls.TextBox Box1;
 
         /// <summary>
-        /// TextBox1y control.
+        /// Box2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1y;
+        protected global::System.Web.UI.WebControls.TextBox Box2;
 
         /// <summary>
-        /// TextBox2z control.
+        /// Button3x control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2z;
+        protected global::System.Web.UI.WebControls.Button Button3x;
     }
 }
